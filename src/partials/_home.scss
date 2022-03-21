@@ -1,0 +1,66 @@
+/* home page */
+.indexcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  padding: 2rem;
+  margin: 0;
+  justify-items: center;
+}
+
+.indexh2 {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.indexh3 {
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.index-h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  font-size: 1.3rem;
+}
+
+.indexh4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  font-size: 1.3rem;
+}
+
+.indexh5 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  font-size: 1.3rem;
+}
+.navigation img {
+  height: 7rem;
+  width: auto;
+}
+/* Hero */
+
+.hero-header {
+  text-align: center;
+  text-transform: uppercase;
+  /* height: 60vh; */
+  width: 100%;
+  font-size: 1.9rem;
+  /* margin-bottom: 450px; */
+}
+
+.hero-header img {
+  width: 100%;
+}

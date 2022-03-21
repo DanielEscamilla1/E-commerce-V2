@@ -1,0 +1,50 @@
+.productContainer {
+  display: grid;
+  grid-template-rows: repeat(3, 620px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  padding: 2rem;
+  margin: 0;
+}
+
+.productsh1 {
+  text-align: center;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+.producth2 {
+  font-size: 1.3rem;
+}
+
+.producth3 {
+  font-size: 1rem;
+}
+
+.product1 {
+  padding: 1em;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 0rem 0.1rem 0.5rem#212529;
+}
+
+.productContainer a:link,
+.productContainer a:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+.productContainer a:hover,
+.productContainer a:active {
+  color: darkgray;
+}
+
+.product1 > img {
+  height: 300px;
+  width: 200px;
+}
+
+.resourcesimages img {
+  height: 200px;
+  width: 300px;
+}
