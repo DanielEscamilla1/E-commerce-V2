@@ -8,7 +8,7 @@ const Home = () => {
           <h1>Kickers</h1>
         </div>
         <div>
-          <img src="i/images/background.jpeg" alt="sneakerhero"/>
+          <img src="/images/background.jpeg" alt="sneakerhero"/>
         </div>
     </header>
 
