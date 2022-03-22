@@ -11,9 +11,9 @@ const Footer = () => {
         <p>
           <b>&copy; 2021 KIckers , All Rights Reserved</b>
         </p>
-        <a href="#" className="fa fa-facebook" aria-label="facebook"></a>
-        <a href="#" className="fa fa-pinterest" aria-label="pinterest"></a>
-        <a href="#" className="fa fa-instagram" aria-label="instagram"></a>
+        <a href="https://www.facebook.com/login/" className="fa fa-facebook" aria-label="facebook"></a>
+        <a href="https://www.pinterest.com/login/" className="fa fa-pinterest" aria-label="pinterest"></a>
+        <a href="https://www.instagram.com/" className="fa fa-instagram" aria-label="instagram"></a>
     </footer>
   </>
   )};
