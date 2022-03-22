@@ -35,15 +35,16 @@ import React from "react";
 // export default Contacts;
 
 const initialState = {
-  name: "",
+  firstName: "",
+  lastName: "",
   email: "",
   comment: "",
   nameError: "",
   emailError: "",
-  passwordError: "",
+  commentError: "",
 };
 
-export default class ValiationForm extends React.Component {
+export default class Contacts extends React.Component {
   state = initialState;
 
   handleChange = (event) => {
@@ -60,12 +61,16 @@ export default class ValiationForm extends React.Component {
     let emailError = "";
     // let passwordError = ""
 
+    if(!this.state.name) {
+      nameError = "name is required"
+    }
+
     if (!this.state.email.includes("@")) {
       emailError = "invalid email";
     }
 
-    if (emailError) {
-      this.setState({ emailError });
+    if (emailError || nameError) {
+      this.setState({ emailError, nameError });
       return false;
     }
 
@@ -77,6 +82,8 @@ export default class ValiationForm extends React.Component {
     const isValid = this.validate();
     if (isValid) {
       console.log(this.state);
+      // clear form
+      this.setState(initialState);
     }
   };
 
@@ -85,30 +92,30 @@ export default class ValiationForm extends React.Component {
       <div className="contact-section">
         <h1>Contact Us</h1>
         <div className="border"></div>
-        <form className="contact-form" onSubmit={this.handleChange}>
+        <form className="contact-form" onSubmit={this.handleSubmit}>
           <div>
             <input
               type="text"
-              name="name"
+              name="firstName"
               className="contact-form-text"
               placeholder="First Name"
-              value={this.state.name}
+              value={this.state.firstName}
               onChange={this.handleChange}
             />
-            <div style={{ fontSize: 12, color: "red" }}>
+            <div style={{ fontSize: 18, color: "white" }}>
               {this.state.nameError}
             </div>
           </div>
           <div>
             <input
               type="text"
-              name="name"
+              name="lastName"
               className="contact-form-text"
               placeholder="Last Name"
-              value={this.state.name}
+              value={this.state.lastName}
               onChange={this.handleChange}
             />
-            <div style={{ fontSize: 12, color: "red" }}>
+            <div style={{ fontSize: 18, color: "white" }}>
               {this.state.nameError}
             </div>
           </div>
@@ -120,7 +127,7 @@ export default class ValiationForm extends React.Component {
               value={this.state.email}
               onChange={this.handleChange}
             />
-            <div style={{ fontSize: 12, color: "red" }}>
+            <div style={{ fontSize: 18, color: "white" }}>
               {this.state.emailError}
             </div>
           </div>
@@ -128,11 +135,11 @@ export default class ValiationForm extends React.Component {
             className="contact-form-text"
             placeholder="Your Message"
           ></textarea>
-          <input
+          <button
             type="submit"
             className="contact-form-btn"
-            value="send"
-          ></input>
+            // value="send"
+          >Send</button>
         </form>
       </div>
     );
