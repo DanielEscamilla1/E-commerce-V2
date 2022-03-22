@@ -56,7 +56,7 @@ export default class ValiationForm extends React.Component {
   };
 
   validate = () => {
-    // let nameError = "";
+    let nameError = "";
     let emailError = "";
     // let passwordError = ""
 
@@ -74,6 +74,7 @@ export default class ValiationForm extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    const isValid = this.validate();
     if (isValid) {
       console.log(this.state);
     }
@@ -104,7 +105,7 @@ export default class ValiationForm extends React.Component {
               name="name"
               className="contact-form-text"
               placeholder="Last Name"
-              value={this.state.email}
+              value={this.state.name}
               onChange={this.handleChange}
             />
             <div style={{ fontSize: 12, color: "red" }}>
