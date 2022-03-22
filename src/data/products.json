@@ -90,7 +90,7 @@
     {
         "id": 12,
         "title": "Jordan 1 Retro High Bred Banned (2016)",
-        "productImg": "./images/jordan12.webp",
+        "productImg": "../images/jordan12.webp",
         "content": "2016 marks the first time in 3 years that the Air Jordan Retro 1 High OG 'Bred' colorway returns. There seems to be Air Jordan 1 colorways released every year but none carry the prestige of the classic Chicago-inspired versions like the black and Varsity Red version commonly referred to as the 'banned' Air Jordans.",
         "price": "$979",
         "releaseDate": "09/03/2016"

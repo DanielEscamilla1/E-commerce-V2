@@ -81,12 +81,26 @@ footer {
 
 /* home page */
 .indexcontainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-  padding: 2rem;
-  margin: 0;
-  justify-items: center;
+  width: 60%;
+  align-content: center;
+  padding-left: 20%;
+}
+
+.main-slide {
+  padding-top: 30px;
+}
+
+.carousel .slider-wrapper {
+  width: 50%;
+}
+
+.carousel .thumb {
+  width: 5%;
+  height: 50px;
+}
+
+.carousel {
+  text-align: center;
 }
 
 .indexh2 {
@@ -145,11 +159,6 @@ footer {
 
 .hero-header img {
   width: 100%;
-}
-
-.resourcesimages img {
-  height: 200px;
-  width: 300px;
 }
 
 /* Contacts page */
@@ -259,11 +268,6 @@ textarea.contact-form-text {
 }
 
 .product1 > img {
-  height: 200px;
-  width: 300px;
-}
-
-.resourcesimages img {
   height: 200px;
   width: 300px;
 }

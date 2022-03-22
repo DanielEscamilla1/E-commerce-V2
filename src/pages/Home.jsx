@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Slider from '../components/Slider';
+
 
 const Home = () => {
   return (
@@ -15,9 +17,7 @@ const Home = () => {
     <h2 className="indexh2">Most Popular Kicks</h2>
     <h3 className="indexh3">Good shoes take you to good places</h3>
     <div className="indexcontainer">
-        <div className="resourcesimages"><img src="/images/jordan11.webp" alt="resourcesimage1"></img></div>
-        <div className="resourcesimages"><img src="/images/jordan12.webp" alt="resourcesimage1"></img></div>
-        <div className="resourcesimages"><img src="/images/jordan2.jpeg" alt="resourcesimage1"></img></div>
+        <Slider />
     </div>
 
     <section>
