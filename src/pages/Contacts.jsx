@@ -64,15 +64,15 @@ export default class Contacts extends React.Component {
     // let passwordError = ""
 
     if(!this.state.firstName) {
-      nameError = "name is required"
+      nameError = "**name is required"
     }
 
     if(!this.state.lastName) {
-      nameError2 = "name is required"
+      nameError2 = "**name is required"
     }
 
     if (!this.state.email.includes("@")) {
-      emailError = "invalid email";
+      emailError = "**invalid email";
     }
 
     if (emailError || nameError || nameError2) {
@@ -108,7 +108,7 @@ export default class Contacts extends React.Component {
               value={this.state.firstName}
               onChange={this.handleChange}
             />
-            <div style={{ fontSize: 18, color: "white" }}>
+            <div style={{ fontSize: 18, color: "red", textShadow: "none" }}>
               {this.state.nameError}
             </div>
           </div>
@@ -121,7 +121,7 @@ export default class Contacts extends React.Component {
               value={this.state.lastName}
               onChange={this.handleChange}
             />
-            <div style={{ fontSize: 18, color: "white" }}>
+            <div style={{ fontSize: 18, color: "red", textShadow: "none" }}>
               {this.state.nameError2}
             </div>
           </div>
@@ -133,7 +133,7 @@ export default class Contacts extends React.Component {
               value={this.state.email}
               onChange={this.handleChange}
             />
-            <div style={{ fontSize: 18, color: "white" }}>
+            <div style={{ fontSize: 18, color: "red", textShadow: "none" }}>
               {this.state.emailError}
             </div>
           </div>
