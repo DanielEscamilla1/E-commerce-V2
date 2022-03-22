@@ -40,6 +40,7 @@ const initialState = {
   email: "",
   comment: "",
   nameError: "",
+  nameError2: "",
   emailError: "",
   commentError: "",
 };
@@ -58,19 +59,24 @@ export default class Contacts extends React.Component {
 
   validate = () => {
     let nameError = "";
+    let nameError2 = "";
     let emailError = "";
     // let passwordError = ""
 
-    if(!this.state.name) {
+    if(!this.state.firstName) {
       nameError = "name is required"
+    }
+
+    if(!this.state.lastName) {
+      nameError2 = "name is required"
     }
 
     if (!this.state.email.includes("@")) {
       emailError = "invalid email";
     }
 
-    if (emailError || nameError) {
-      this.setState({ emailError, nameError });
+    if (emailError || nameError || nameError2) {
+      this.setState({ emailError, nameError, nameError2 });
       return false;
     }
 
@@ -116,7 +122,7 @@ export default class Contacts extends React.Component {
               onChange={this.handleChange}
             />
             <div style={{ fontSize: 18, color: "white" }}>
-              {this.state.nameError}
+              {this.state.nameError2}
             </div>
           </div>
           <div>
