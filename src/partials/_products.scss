@@ -1,6 +1,6 @@
 .productContainer {
   display: grid;
-  grid-template-rows: repeat(3, 620px);
+  grid-template-rows: repeat(3, 4fr);
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
   padding: 2rem;
@@ -40,8 +40,8 @@
 }
 
 .product1 > img {
-  height: 300px;
-  width: 200px;
+  height: 200px;
+  width: 300px;
 }
 
 .resourcesimages img {
