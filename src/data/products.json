@@ -1,98 +1,101 @@
 [
-  {
-    "id": 1,
-    "title": "Jordan 1 Retro High OG Bordeaux",
-    "productImg": "../images/air-jordan-1.webp",
-    "content": "The Air Jordan High Bordeaux features a white with Bordeaux overlays and metallic sliver Swooshes. From there, matching woven tongue labels and a Wings logo on the collar nod to the original 1985 Jordan 1 desgin.",
-    "price": "$198",
-    "releaseDate": "Release Date - 11/20/2021"
-  },
-  {
-    "id": 2,
-    "title": "Jordan 1 Retro High White University Blue Black",
-    "productImg": "../images/Jordanblue2.webp",
-    "content": "Jordan Brand paid homage to MJ’s alma mater with the Air Jordan 1 High University Blue. The University Blue colorway is prominent in the Jordan 1’s history. The first UNC-inspired Jordan 1 dates back to 1985 when the Jordan 1 debuted. Since then, there have been numerous",
-    "price": "$479",
-    "releaseDate": "Release Date - 03/06/2021"
-  },
-  {
-    "id": 3,
-    "title": "Jordan 1 Retro High Pollen",
-    "productImg": "../images/Air-Jordan-3.webp",
-    "content": "In a simple two-tone format, the upper of the Air Jordan 1 High Pollen is constructed of black tumbled leather with Pollen Yellow overlays and Swooshes. Matching woven tongue tags and a Jordan Wings logo on the collar add authentic 1980s detailing.",
-    "price": "$200",
-    "releaseDate": "Release Date - 08/14/2021"
-  },
-  {
-    "id": 4,
-    "title": "Jordan 1 Mid Banned (2020)",
-    "productImg": "../images/jordan-4.jpeg",
-    "content": "The Air Jordan 1 Mid Banned (2020) takes the classic Banned colorway of the high-top Jordan 1 and applies it to the mid-cut sneaker.",
-    "price": "$173",
-    "releaseDate": "Release Date - 11/12/2020"
-  },
-  {
-    "id": 5,
-    "title": "Jordan 1 Retro High OG Seafoam (W)",
-    "productImg": "../images/jordan5.jpeg",
-    "content": "The women's Air Jordan 1 High Seafoam (W) arrives in a smooth white leather construction with Seafoam Durabuck overlays and Swooshes. On the laces, crisp bronze trimming stands out against the design's subtle coloration. The women's Air Jordan 1 High Seafoam (W) released in August of 2021 and retailed for $170.",
-    "price": "$252",
-    "releaseDate": "Release Date - 08/12/2021"
-  },
-  {
-    "id": 6,
-    "title": "Jordan 1 Retro AJKO Storm Blue",
-    "productImg": "../images/jordan6.webp",
-    "content": "In a traditional AJKO canvas fabrication, the Air Jordan 1 KO Storm Blue features a white upper with Storm Blue overlays and black Swooshes. From there, a matching woven Nike Air tongue label and sole completes the retro design.",
-    "price": "$158",
-    "releaseDate": "Release Date - 09/29/2021"
-  },
-  {
-    "id": 7,
-    "title": "Jordan 1 Retro High OG Prototype",
-    "productImg": "../images/jordan7.webp",
-    "content": "Jordan Brand encourages sneaker customization with the Air Jordan 1 Prototype. With a perforated line separating the collar from the rest of the upper, the Air Jordan 1 Prototype can be worn as a high-top or low-top if you choose to safely cut the collar away. White leather construction with multicolor leather and Durabuck overlays further amplify the DIY appeal of the design.",
-    "price": "$237",
-    "releaseDate": "Release Date - 09/24/2021"
-  },
-  {
-    "id": 8,
-    "title": "Jordan 1 Retro High OG Bred Patent",
-    "productImg": "../images/jordan8.jpeg",
-    "content": "The Air Jordan 1 High Bred Patent features black and red patent leather upper with signature weaved Nike Air tongue labels. From there, a classic Wings logo on the collar and a white with red Air sole complete the retro design.",
-    "price": "$500",
-    "releaseDate": "Release Date - 12/30/2021"
-  },
-  {
-    "id": 9,
-    "title": "Jordan 1 Retro High Tie Dye (W)",
-    "productImg": "../images/jordan9.jpeg",
-    "content": "Jordan Brand adds a psychedelic twist to a classic silhouette with the women's Jordan 1 Retro High Tie Dye (W), now available on StockX This release is a women’s exclusive, similar to the Jordan 1 Satin Shattered Backboard (W) and Jordan 1 Satin Black Toe (W). The Jwomen's ordan",
-    "price": "$315",
-    "releaseDate": "Release Date - 06/26/2020"
-  },
-  {
-    "id": 10,
-    "title": "Jordan 1 Retro High Shadow (2018)",
-    "productImg": "../images/air-jordan-1.webp",
-    "content": "Despite the name, the Air Jordan 1 Shadows are a pair that will put any fit of yours firmly in the spotlight. This very rare OG colorway has now hit shelves only three times, making these a must-own for any AJ1 collector.",
-    "price": "$544",
-    "releaseDate": "Release Date - 04/14/2018"
-  },
-  {
-    "id": 11,
-    "title": "Jordan 1 Retro High Travis Scott",
-    "productImg": "../images/jordan11.webp",
-    "content": "Grab a pack of coffee beans to match the Jordan 1 Retro High Travis Scott. This AJ1 comes with a brown upper plus white accents, black Nike 'Swoosh', sail midsole, and a brown sole. These sneakers released in May 2019 and retailed for $175.",
-    "price": "$1,840",
-    "releaseDate": "Release Date - 05/11/2019"
-  },
-  {
-    "id": 12,
-    "title": "Jordan 1 Retro High Bred Banned (2016)",
-    "productImg": "../images/jordan12.webp",
-    "content": "2016 marks the first time in 3 years that the Air Jordan Retro 1 High OG 'Bred' colorway returns. There seems to be Air Jordan 1 colorways released every year but none carry the prestige of the classic Chicago-inspired versions like the black and Varsity Red version commonly referred to as the 'banned' Air Jordans.",
-    "price": "$979",
-    "releaseDate": "Release Date - 09/03/2016"
-  }
+    {
+        "id": 1,
+        "title": "Jordan 1 Retro High OG Bordeaux",
+        "productImg": "../images/air-jordan-1.webp",
+        "content": "The Air Jordan High Bordeaux features a white with Bordeaux overlays and metallic sliver Swooshes. From there, matching woven tongue labels and a Wings logo on the collar nod to the original 1985 Jordan 1 desgin.",
+        "price": "$198",
+        "releaseDate": "Release Date - 11/20/2021"
+    },
+    {
+        "id": 2,
+        "title": "Jordan 1 Retro High White University Blue Black",
+        "productImg": "../images/Jordanblue2.webp",
+        "content": "Jordan Brand paid homage to MJ’s alma mater with the Air Jordan 1 High University Blue. The University Blue colorway is prominent in the Jordan 1’s history. The first UNC-inspired Jordan 1 dates back to 1985 when the Jordan 1 debuted. Since then, there have been numerous",
+        "price": "$479",
+        "releaseDate": "Release Date - 03/06/2021"
+    },
+    {
+        "id": 3,
+        "title": "Jordan 1 Retro High Pollen",
+        "productImg": "../images/Air-Jordan-3.webp",
+        "content": "In a simple two-tone format, the upper of the Air Jordan 1 High Pollen is constructed of black tumbled leather with Pollen Yellow overlays and Swooshes. Matching woven tongue tags and a Jordan Wings logo on the collar add authentic 1980s detailing.",
+        "price": "$200",
+        "releaseDate": "Release Date - 08/14/2021"
+    },
+    {
+        "id": 4,
+        "title": "Jordan 1 Mid Banned (2020)",
+        "productImg": "../images/jordan-4.jpeg",
+        "content": "The Air Jordan 1 Mid Banned (2020) takes the classic Banned colorway of the high-top Jordan 1 and applies it to the mid-cut sneaker.",
+        "price": "$173",
+        "releaseDate": "Release Date - 11/12/2020"
+    },
+    {
+        "id": 5,
+        "title": "Jordan 1 Retro High OG Seafoam (W)",
+        "productImg": "../images/jordan5.jpeg",
+        "content": "The women's Air Jordan 1 High Seafoam (W) arrives in a smooth white leather construction with Seafoam Durabuck overlays and Swooshes. On the laces, crisp bronze trimming stands out against the design's subtle coloration. The women's Air Jordan 1 High Seafoam (W) released in August of 2021 and retailed for $170.",
+        "price": "$252",
+        "releaseDate": "Release Date - 08/12/2021"
+    },
+    {
+        "id": 6,
+        "title": "Jordan 1 Retro AJKO Storm Blue",
+        "productImg": "../images/jordan6.webp",
+        "content": "In a traditional AJKO canvas fabrication, the Air Jordan 1 KO Storm Blue features a white upper with Storm Blue overlays and black Swooshes. From there, a matching woven Nike Air tongue label and sole completes the retro design.",
+        "price": "$158",
+        "releaseDate": "Release Date - 09/29/2021"
+    },
+    {
+        "id": 7,
+        "title": "Jordan 1 Retro High OG Prototype",
+        "productImg": "../images/jordan7.webp",
+        "content": "Jordan Brand encourages sneaker customization with the Air Jordan 1 Prototype. With a perforated line separating the collar from the rest of the upper, the Air Jordan 1 Prototype can be worn as a high-top or low-top if you choose to safely cut the collar away. White leather construction with multicolor leather and Durabuck overlays further amplify the DIY appeal of the design.",
+        "price": "$237",
+        "releaseDate": "Release Date - 09/24/2021"
+    },
+    {
+        "id": 8,
+        "title": "Jordan 1 Retro High OG Bred Patent",
+        "productImg": "../images/jordan8.jpeg",
+        "content": "The Air Jordan 1 High Bred Patent features black and red patent leather upper with signature weaved Nike Air tongue labels. From there, a classic Wings logo on the collar and a white with red Air sole complete the retro design.",
+        "price": "$500",
+        "releaseDate": "Release Date - 12/30/2021"
+    },
+    {
+        "id": 9,
+        "title": "Jordan 1 Retro High Tie Dye (W)",
+        "productImg": "../images/jordan9.jpeg",
+        "content": "Jordan Brand adds a psychedelic twist to a classic silhouette with the women's Jordan 1 Retro High Tie Dye (W), now available on StockX This release is a women’s exclusive, similar to the Jordan 1 Satin Shattered Backboard (W) and Jordan 1 Satin Black Toe (W). The Jwomen's ordan",
+        "price": "$315",
+        "releaseDate": "Release Date - 06/26/2020"
+    },
+    {
+        "id": 10,
+        "title": "Jordan 1 Retro High Shadow (2018)",
+        "productImg": "../images/air-jordan-1.webp",
+        "content": "Despite the name, the Air Jordan 1 Shadows are a pair that will put any fit of yours firmly in the spotlight. This very rare OG colorway has now hit shelves only three times, making these a must-own for any AJ1 collector.",
+        "price": "$544",
+        "releaseDate": "Release Date - 04/14/2018"
+    },
+    {
+        "id": 11,
+        "title": "Jordan 1 Retro High Travis Scott",
+        "productImg": "../images/jordan11.webp",
+        "content": "Grab a pack of coffee beans to match the Jordan 1 Retro High Travis Scott. This AJ1 comes with a brown upper plus white accents, black Nike 'Swoosh', sail midsole, and a brown sole. These sneakers released in May 2019 and retailed for $175.",
+        "price": "$1,840",
+        "releaseDate": "Release Date - 05/11/2019"
+    },
+    {
+        "id": 12,
+        "title": "Jordan 1 Retro High Bred Banned (2016)",
+        "productImg": "../images/jordan12.webp",
+        "content": "2016 marks the first time in 3 years that the Air Jordan Retro 1 High OG 'Bred' colorway returns. There seems to be Air Jordan 1 colorways released every year but none carry the prestige of the classic Chicago-inspired versions like the black and Varsity Red version commonly referred to as the 'banned' Air Jordans.",
+        "price": "$979",
+        "releaseDate": "Release Date - 09/03/2016"
+    },
+    {
+
+    }
 ]
