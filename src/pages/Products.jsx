@@ -1,5 +1,7 @@
 import React from "react";
-import Productlist from "../productlist/Productdetail";
+// import Productlist from "../productlist/Productdetail";
+// import axios from "axios";
+import ProductData from "../productlist/Productdata";
 
 const Products = () => {
   return (
@@ -7,7 +9,7 @@ const Products = () => {
       <h1 className="productsH1">Products</h1>
       <main>
         <div className="cards">
-          <Productlist />
+          <ProductData />
         </div>
       </main>
     </div>

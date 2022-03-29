@@ -24,7 +24,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/api/products', (req, res) => {
-    db.query('SELECT * FROM products', (err, result) => {
+    db.query('SELECT * FROM products;', (err, result) => {
         if(err) {
             console.log(err)
         }else{
@@ -32,6 +32,16 @@ app.get('/api/products', (req, res) => {
         }
     })
 })
+
+// app.post('/products', (req, res) => {
+//     db.query('SELECT * FROM products;', (err, result) => {
+//         if(err) {
+//             console.log(err)
+//         }else{
+//             console.log(res.send(result))
+//         }
+//     })
+// })
 
 
 
