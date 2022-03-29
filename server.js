@@ -23,21 +23,12 @@ db.connect(err => {
 app.use(cors());
 app.use(express.json());
 
-app.get('/api/users/:username/:password', (req, res) => {
-    const reqName = req.params.username
-    const reqPass = req.params.password
-    console.log(reqName)
+app.get('/api/products', (req, res) => {
     db.query('SELECT * FROM products', (err, result) => {
         if(err) {
             console.log(err)
-        }else {
-            // res.send(result)
-            result.filter(item => {
-                if(item.user_name === reqName && item.password === reqPass){
-                    console.log(`it's a match`)
-                    res.send(item)
-                } 
-            })
+        }else{
+            res.send
         }
     })
 })
