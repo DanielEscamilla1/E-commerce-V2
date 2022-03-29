@@ -28,7 +28,7 @@ app.get('/api/products', (req, res) => {
         if(err) {
             console.log(err)
         }else{
-            res.send
+            res.send(result)
         }
     })
 })
