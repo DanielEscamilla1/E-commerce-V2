@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import ProductData from "../data/products.json";
 
 const Productlist = () => {
+  const [productinfo,setData] = useState([ProductData]);
+
   return (
     <>
       {ProductData.map((productinfo, index) => {
@@ -15,8 +17,8 @@ const Productlist = () => {
             <p className="card_title text-medium">{productinfo.title}</p>
             <div className="card_info">
               <p className="text-medium">{productinfo.content}</p>
-              <p class="card_price text-medium">{productinfo.releaseDate}</p>
-              <p class="card_price text-medium">{productinfo.price}</p>
+              <p className="card_price text-medium">{productinfo.releaseDate}</p>
+              <p className="card_price text-medium">{productinfo.price}</p>
             </div>
           </div>
         );

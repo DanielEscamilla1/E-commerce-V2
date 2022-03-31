@@ -1,21 +1,11 @@
 import React from "react";
-import axios from "axios";
+// import axios from "axios";
 
-export default class ProductData extends React.Component {
-  state = {
-    products: [],
-  };
+const ProductData = (props) => {
 
-  componentDidMount() {
-    axios.get("http://localhost:4000/api/products").then((res) => {
-      console.log(res);
-      this.setState({ products: res.data });
-    });
-  }
-  render() {
     return (
       <>
-        {this.state.products.map(product => {
+        {props.products.map(product => {
           return (
             <div key={product.id} className="card">
               <img
@@ -41,4 +31,5 @@ export default class ProductData extends React.Component {
       </>
     );
   }
-}
+
+export default ProductData;
