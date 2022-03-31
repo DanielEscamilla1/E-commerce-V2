@@ -45,6 +45,6 @@ app.get('/api/products', (req, res) => {
 
 
 
-app.listen(4000, () => {
+app.listen(process.env.PORT || 4000, () => {
     console.log(`console server listening on port 4000`)
 })
