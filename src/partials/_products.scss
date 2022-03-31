@@ -88,6 +88,18 @@ main {
   margin-left: 128px;
 }
 
+.carousel .slide {
+  background: white;
+}
+
+.carousel .control-dots {
+  margin: 60px auto
+}
+
+.carousel .thumbs-wrapper {
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   .card {
       grid-column-end: span 6;
