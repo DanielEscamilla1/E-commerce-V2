@@ -184,6 +184,15 @@ footer {
   width: 100%;
 }
 
+@media only screen and (max-width: 450px) {
+  section {
+    display: none;
+  }
+
+  .kickerLogo123 {
+    display: none;
+  }
+}
 /* Contacts page */
 .contact-section {
   background: url(https://www.lacesout.net/wp-content/uploads/2016/05/air-jordan-1-on-feet-retro-high-melo-gold-black.jpg) no-repeat center;
