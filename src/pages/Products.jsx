@@ -20,6 +20,7 @@ export default class Products extends React.Component {
     });
   }
 
+
   sortFun = (e) => {
     e.preventDefault();
     console.log(e.target.value)
@@ -37,6 +38,7 @@ export default class Products extends React.Component {
           <option value="200">less than 200</option>
           <option value="500">less than 500</option>
           <option value="800">less than 800</option>
+          <option value="10000">ALL</option>
         </select>
         <main>
           <div className="cards">
