@@ -7,7 +7,7 @@ const Test = () => {
   // const [filter, setFilter] = useState([])
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/products").then((res) => {
+    axios.get("https://ecom-dbsql.herokuapp.com/api/products").then((res) => {
       setProducts(res.data);
       // console.log(res);
       // this.setState({ products: res.data });
