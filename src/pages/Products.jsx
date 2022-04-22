@@ -15,20 +15,22 @@ export default class Products extends React.Component {
 
   componentDidMount() {
     axios.get("http://localhost:4000/api/products").then((res) => {
-      console.log(res);
+      // console.log(res);
       this.setState({ products: res.data });
     });
   }
 
   sortFun = (e) => {
     e.preventDefault();
-    console.log(e.target.value);
+    // console.log(e.target.value);
     const result = this.state.products.filter(
       (product) => product.price < e.target.value
     );
-    this.setState({ products: result });
-    console.log(this.state.products);
+    // this.setState({ products: result });
+    // this.setState(prevstate => ({ products: prevstate.result + 1}));
+    // console.log(this.state.products);
   };
+
   render() {
     return (
       <div className="productPage">

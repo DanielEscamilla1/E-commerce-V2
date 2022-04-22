@@ -5,11 +5,14 @@ const mysql = require('mysql');
 const app = express();
 
 //connecting to the database and checking for errors if any are present
+
+// mysql://b7c23db6a6ccb1:d02e582d@us-cdbr-east-05.cleardb.net/heroku_9273441edffd70a?reconnect=true
+
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'Daniel27!',
-    database: 'ecommerce'
+    host: 'us-cdbr-east-05.cleardb.net',
+    user: 'b7c23db6a6ccb1',
+    password: 'd02e582d',
+    database: 'heroku_9273441edffd70a'
 });
 
 db.connect(err => {

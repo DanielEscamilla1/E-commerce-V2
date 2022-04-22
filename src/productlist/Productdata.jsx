@@ -2,7 +2,7 @@ import React from "react";
 // import axios from "axios";
 
 const ProductData = (props) => {
-
+console.log(props.products)
     return (
       <>
         {props.products.map(product => {
