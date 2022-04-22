@@ -6,7 +6,7 @@ const app = express();
 
 //connecting to the database and checking for errors if any are present
 
-// mysql://b7c23db6a6ccb1:d02e582d@us-cdbr-east-05.cleardb.net/heroku_9273441edffd70a?reconnect=true
+mysql://b7c23db6a6ccb1:d02e582d@us-cdbr-east-05.cleardb.net/heroku_9273441edffd70a?reconnect=true
 
 const db = mysql.createConnection({
     host: 'us-cdbr-east-05.cleardb.net',
