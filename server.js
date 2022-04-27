@@ -6,7 +6,7 @@ const app = express();
 
 //connecting to the database and checking for errors if any are present
 
-const db = mysql.createConnection({
+const db = mysql.createPool({
     host: 'us-cdbr-east-05.cleardb.net',
     user: 'b7c23db6a6ccb1',
     password: 'd02e582d',
